@@ -179,34 +179,27 @@ main * {
 
 #link,
 #git {
-  height: 100px;
-}
-#link {
-  margin-left: 300px;
-}
-#git {
-  margin-left: 350px;
-}
-#contacts1 {
+  height: 50px;
   margin: 0;
-  margin-top: 100px;
-  margin-bottom: -100px;
-  border-style: outset;
+  margin-left: 420px;
+  margin-top: 40px;
+  background-color: #ffe6e6;
+}
 
-  border-color: black;
+.contacts1 {
   background-image: url("https://i.pinimg.com/originals/3b/4b/03/3b4b03eedd40feb38d7f3bae24c99d10.jpg");
 }
-#foot {
-  display: flex;
-  align-items: center;
-  margin-left: 550px;
+.contact {
+  font-family: var(--font-family);
+  font-size: 30px;
+  color: #ffe6e6;
+  margin: 0;
+  margin-left: 480px;
 }
 
 footer {
-  color: white;
   background-color: black;
-  display: flex;
+  margin: 0;
   margin-top: 150px;
   grid-area: footer;
-  font-family: var(--font-family);
 }
